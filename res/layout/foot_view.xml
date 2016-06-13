@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+	android:background="@drawable/shape4"
+	android:layout_gravity="bottom"
+	android:visibility="gone">
+   
+  <LinearLayout
+		 android:layout_width="fill_parent"
+		 android:layout_height="70dp"
+		 android:layout_alignParentBottom="true"
+		 android:background="@drawable/bei"
+		 android:orientation="horizontal"
+	>
+	 
+	 <LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="70dp"
+		android:paddingLeft="20dp"
+		android:orientation="vertical"
+	  >  
+	      <ImageView
+			 android:layout_width="60dp"
+		     android:layout_height="70dp"
+			 android:src="@drawable/like"
+	        />
+	 </LinearLayout>
+				   <LinearLayout
+				        android:layout_width="70dp"
+					    android:layout_height="70dp"
+					    android:paddingLeft="10dp"
+					    android:orientation="vertical"
+				       >
+					  <TextView
+					      android:id="@+id/title"
+					      android:layout_width="wrap_content"
+					      android:layout_height="40dp"
+					      android:paddingTop="12dp"
+					      android:textSize="15dp"
+					      android:text="歌曲名称"
+					      android:textStyle="bold"
+					      />
+
+					  <TextView
+					      android:id="@+id/artist"
+					      android:layout_width="wrap_content"
+					      android:layout_height="30dp"
+					      android:textSize="10dp"
+					      android:text="作曲者"
+					      />
+				   </LinearLayout>
+				   <LinearLayout 
+				    	android:layout_width="wrap_content"
+				    	android:layout_height="70dp"
+				    	android:paddingRight="30dp"
+				        android:orientation="horizontal"
+				    	>
+					  
+				       <!--  <SeekBar 
+				            android:id="@+id/seekbar2"
+				            android:layout_width="200dp"
+				    		android:layout_height="50dp"
+				    		android:paddingTop="4dp"
+				    		android:thumb="@drawable/thumb1"
+				    		/>
+				        
+				      <LinearLayout 
+				    	android:layout_width="wrap_content"
+				    	android:layout_height="50dp"
+				    	android:paddingBottom="2dp"
+				    	android:paddingLeft="20dp"
+				        android:orientation="horizontal"
+				    	>    -->
+					    	<ImageButton 
+					    	    android:id="@+id/previous2"
+					    	    android:src="@drawable/previous2"
+					    	    android:layout_width="40dp"
+					    		android:layout_height="40dp"
+					    		android:layout_gravity="center_vertical"
+					    		android:paddingRight="10dp"
+					    		android:background="@android:color/transparent"
+					    		/>
+					    	<ImageButton 
+					    	    android:id="@+id/pause2"
+					    	    android:src="@drawable/pause2"
+					    	    android:layout_width="40dp"
+					    		android:layout_height="40dp"
+					    		android:layout_gravity="center_vertical"
+					    		android:paddingRight="10dp"
+					    		android:background="@android:color/transparent"
+					    		/>
+					    	<ImageButton 
+					    	    android:id="@+id/play2"
+					    	    android:src="@drawable/play2"
+					    	    android:layout_width="40dp"
+					    		android:layout_height="40dp"
+					    		android:layout_gravity="center_vertical"
+					    		android:paddingRight="10dp"
+					    		android:background="@android:color/transparent"
+					    		/>
+
+					    	<ImageButton
+					    	    android:id="@+id/next2"
+					    	    android:layout_width="40dp"
+					    	    android:layout_height="40dp"
+					    	    android:background="@android:color/transparent"
+			                    android:layout_gravity="center_vertical"
+					            android:paddingRight="1dp"
+					    	    android:src="@drawable/next2" />
+
+					      </LinearLayout> 
+					
+					 </LinearLayout>
+	 
+	 
+</RelativeLayout>

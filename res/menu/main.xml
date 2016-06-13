@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.heartmusic.MainActivity" >
+
+ <item
+        android:id="@+id/playStyle"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/playStyle">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/single"
+                    android:title="@string/single">
+                </item>
+                <item
+                    android:id="@+id/listCircle"
+                    android:checked="true"
+                    android:title="@string/listCircle">
+                </item>
+                <item
+                    android:id="@+id/random"
+                    android:title="@string/random">
+                </item>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/songList"
+        android:showAsAction="always"
+        android:title="@string/songList"/>
+
+</menu>

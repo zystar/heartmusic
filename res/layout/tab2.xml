@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+		<LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical">
+	        
+		    <LinearLayout
+		        android:id="@+id/tab2_0"
+		        android:layout_width="match_parent"
+		        android:layout_height="40dp"
+		        android:layout_marginLeft="15dp"
+		        android:layout_marginRight="15dp"
+		        android:background="@drawable/shape3"
+		        android:orientation="horizontal" >
+		
+		        <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_weight="9"
+		            android:layout_height="match_parent"
+		            android:layout_marginLeft="15dp" />
+		
+		        <ImageView
+		            android:layout_width="wrap_content"
+		            android:layout_weight="1"
+		            android:layout_height="match_parent"
+		            android:background="#00000000"
+		            android:src="@drawable/menu_icon_search_pressed" />
+		    </LinearLayout>
+		
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="100dp"
+		        android:layout_marginTop="30dp"
+		        android:background="@android:color/transparent"
+		        android:orientation="horizontal" >
+		        
+		        <LinearLayout 
+		            android:layout_width="fill_parent"
+		            android:layout_height="match_parent"
+		            android:layout_weight="1"
+		            android:gravity="center_horizontal"
+		            android:orientation="horizontal">
+		
+			        <LinearLayout
+			            android:id="@+id/tab2_1"
+			            android:layout_width="100dp"
+			            android:layout_height="100dp"
+			            android:background="@drawable/shape3"
+			            android:gravity="center"
+			            android:orientation="vertical" >
+			
+			            <LinearLayout
+			                android:layout_width="50dp"
+			                android:layout_height="50dp 
+			         	    " >
+			
+			                <ImageView
+			                    android:layout_width="match_parent"
+			                    android:layout_height="match_parent"
+			                    android:background="@drawable/menu_recommend" />
+			            </LinearLayout>
+			
+			            <TextView
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:textColor="#080808"
+			                android:text="经典排行榜" />
+			        </LinearLayout>
+			    </LinearLayout>
+		
+		        <LinearLayout 
+		            android:layout_width="fill_parent"
+		            android:layout_height="match_parent"
+		            android:layout_weight="1"
+		            android:gravity="center_horizontal"
+		            android:orientation="horizontal">
+		        
+			        <LinearLayout
+			            android:id="@+id/tab2_2"
+			            android:layout_width="100dp"
+			            android:layout_height="100dp"
+			            android:background="@drawable/shape3"
+			            android:gravity="center"
+			            android:orientation="vertical" >
+			
+			            <LinearLayout
+			                android:layout_width="40dp"
+			                android:layout_height="40dp
+			         	    " >
+			
+			                <ImageView
+			                    android:layout_width="match_parent"
+			                    android:layout_height="match_parent"
+			                    android:background="@drawable/ic_root_mv" />
+			            </LinearLayout>
+			
+			            <TextView
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:textColor="#080808"
+			                android:text="影视金曲榜" />
+			        </LinearLayout>
+			        
+		        </LinearLayout>
+		        
+		    </LinearLayout>
+		
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="100dp"
+		        android:layout_marginTop="40dp"
+		        android:background="@android:color/transparent"
+		        android:orientation="horizontal" >
+		        
+		        
+		        <LinearLayout 
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            android:layout_weight="1"
+		            android:gravity="center_horizontal"
+		            android:orientation="horizontal">
+		        
+		
+			        <LinearLayout
+			            android:id="@+id/tab2_3"
+			            android:layout_width="100dp"
+			            android:layout_height="100dp"
+			            android:background="@drawable/shape3"
+			            android:gravity="center"
+			            android:orientation="vertical" >
+			
+			            <LinearLayout
+			                android:layout_width="40dp"
+			                android:layout_height="40dp
+			         	    " >
+			
+			                <ImageView
+			                    android:layout_width="match_parent"
+			                    android:layout_height="match_parent"
+			                    android:background="@drawable/btn_ad_music" />
+			            </LinearLayout>
+			
+			            <TextView
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:textColor="#080808"
+			                android:text="流行音乐榜" />
+			        </LinearLayout>
+		        </LinearLayout>
+		        
+		        <LinearLayout 
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            android:layout_weight="1"
+		            android:gravity="center_horizontal"
+		            android:orientation="horizontal">
+		        
+			
+			        <LinearLayout
+			            android:id="@+id/tab2_4"
+			            android:layout_width="100dp"
+			            android:layout_height="100dp"
+			            android:background="@drawable/shape3"
+			            android:gravity="center"
+			            android:orientation="vertical" >
+			
+			            <LinearLayout
+			                android:layout_width="50dp"
+			                android:layout_height="50dp
+			         	    " >
+			
+			                <ImageView
+			                    android:layout_width="match_parent"
+			                    android:layout_height="match_parent"
+			                    android:background="@drawable/menu_ktv" />
+			            </LinearLayout>
+			
+			            <TextView
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:textColor="#080808"
+			                android:text="K歌榜" />
+			        </LinearLayout>
+		        </LinearLayout>
+		    </LinearLayout>
+		
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="100dp"
+		        android:layout_marginTop="40dp"
+		        android:background="@android:color/transparent"
+		        android:orientation="horizontal" >
+		        
+		        
+		        <LinearLayout 
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            android:layout_weight="1"
+		            android:gravity="center_horizontal"
+		            android:orientation="horizontal">
+		        
+		
+			        <LinearLayout
+			            android:id="@+id/tab2_5"
+			            android:layout_width="100dp"
+			            android:layout_height="100dp"
+			            android:background="@drawable/shape3"
+			            android:gravity="center"
+			            android:orientation="vertical" >
+			
+			            <LinearLayout
+			                android:layout_width="50dp"
+			                android:layout_height="50dp
+			         	    " >
+			
+			                <ImageView
+			                    android:layout_width="match_parent"
+			                    android:layout_height="match_parent"
+			                    android:background="@drawable/menu_crowdfunding" />
+			            </LinearLayout>
+			
+			            <TextView
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:textColor="#080808"
+			                android:text="曲派流风" />
+			        </LinearLayout>
+		        </LinearLayout>
+		        
+		        <LinearLayout 
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            android:layout_weight="1"
+		            android:gravity="center_horizontal"
+		            android:orientation="horizontal">
+			
+			        <LinearLayout
+			            android:id="@+id/tab2_6"
+			            android:layout_width="100dp"
+			            android:layout_height="100dp"
+			            android:background="@drawable/shape3"
+			            android:gravity="center"
+			            android:orientation="vertical" >
+			
+			            <LinearLayout
+			                android:layout_width="50dp"
+			                android:layout_height="50dp
+			         	    " >
+			
+			                <ImageView
+			                    android:layout_width="match_parent"
+			                    android:layout_height="match_parent"
+			                    android:background="@drawable/menu_ring_edit" />
+			            </LinearLayout>
+			
+			            <TextView
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:textColor="#080808"
+			                android:text="铃声推荐" />
+			        </LinearLayout>
+		        </LinearLayout>
+		    </LinearLayout>
+	    </LinearLayout>
+	</ScrollView>
+</LinearLayout>

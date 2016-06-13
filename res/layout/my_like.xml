@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/localLL"
+	android:background="@drawable/listbg">
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="8">
+		<TabHost
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent">
+		    <RelativeLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent">
+		        
+		        <include layout="@layout/head_view"></include>
+		        
+		        <TabWidget 
+		            android:layout_width="fill_parent"
+		            android:layout_height="30dp"
+		            android:layout_alignParentTop="true"
+		            android:layout_marginTop="40dp" 
+		            android:layout_marginLeft="10dp" 
+		            android:layout_marginRight="10dp" 
+		            android:background="@drawable/shape5"/>
+		        
+		        <FrameLayout 
+		            android:layout_width="fill_parent"
+		            android:layout_height="fill_parent"
+		            android:layout_marginTop="70dp"
+		            android:layout_alignParentTop="true">
+		            
+		            <LinearLayout 
+		                android:layout_width="match_parent"
+					    android:layout_height="match_parent"
+					    android:orientation="vertical">
+					    
+					     <ListView
+								android:layout_width="match_parent"
+								android:layout_height="match_parent" 
+								android:divider="#00000000"
+								android:dividerHeight="5dp"
+								android:layout_margin="5dp"
+								android:listSelector="@drawable/timer_list_selector"/>
+		                
+		            </LinearLayout>
+		            <LinearLayout 
+		                android:layout_width="match_parent"
+					    android:layout_height="match_parent"
+					    android:orientation="vertical">
+
+		                 <ListView 
+								android:layout_width="match_parent"
+								android:layout_height="match_parent" 
+								android:divider="#00000000"
+								android:dividerHeight="5dp"
+								android:layout_margin="5dp"
+								android:listSelector="@drawable/timer_list_selector"/>
+		            </LinearLayout>
+		            <!-- 
+		            <LinearLayout android:id="@+id/tab3"
+		                android:layout_width="match_parent"
+					    android:layout_height="match_parent"
+					    android:orientation="vertical">
+					    
+					    <include layout="@layout/other"></include>
+		                
+		            </LinearLayout>
+		             -->
+		        </FrameLayout>
+		        
+		        
+		    </RelativeLayout>
+		</TabHost>
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="bottom">
+		        
+        <include layout="@layout/foot_view"></include>
+        
+    </LinearLayout>
+    
+</LinearLayout>

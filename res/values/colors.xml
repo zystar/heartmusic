@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+    <drawable name="blue">#249FF7</drawable>  
+    <drawable name="white">#FFFFFF</drawable>  
+    <drawable name="gray">#ccc</drawable>  
+    <color name="transparent">#50000000</color>   
+    <color name="air">#55FFFFFF</color> 
+   <color name="focus">#E0EEE0</color>
+</resources>  
+
